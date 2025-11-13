@@ -1,0 +1,30 @@
+.chartContainer {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+.chart {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  min-height: 300px;
+}
+
+.noData {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 40px;
+}
+
+@media (max-width: 768px) {
+  .chartContainer {
+    padding: 12px;
+  }
+}
+

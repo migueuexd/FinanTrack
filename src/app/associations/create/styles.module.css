@@ -1,0 +1,30 @@
+.container {
+  max-width: 520px;
+  margin: 24px auto;
+  padding: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 12px 0;
+  color: var(--text);
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.helpText {
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.5;
+}
+
+
